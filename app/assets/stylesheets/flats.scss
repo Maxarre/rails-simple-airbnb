@@ -1,3 +1,27 @@
 // Place all the styles related to the Flats controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+}
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
+}
+
+.flex {
+  display: flex;
+}
+
+.navbar {
+  background-color: #F8F9FA;
+  display: flex;
+  justify-content: space-between;
+}
+
+h4 {
+  font-size: 24px;
+}

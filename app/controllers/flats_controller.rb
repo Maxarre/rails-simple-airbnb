@@ -13,8 +13,11 @@ class FlatsController < ApplicationController
 
   def create
     @flat = Flat.new(flat_params)
-    @flat.save
-    redirect_to flats_path
+    if @flat.save
+      redirect_to flats_path
+    else
+      render :new
+    end
   end
 
   def edit

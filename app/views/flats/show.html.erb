@@ -1,3 +1,5 @@
+<p><%= link_to "Back to list", flats_path %></p>
+
 <div class="row">
   <div class="col-8">
     <div class="flat-show-card">
@@ -15,8 +17,8 @@
     </div>
     <div class="flat-show-card">
       <h3>Details</h3>
-      <p><i class="fas fa-users"></i><%= @flat.number_of_guests %></p>
-      <p><i class="fas fa-euro-sign"></i><%= @flat.price_per_night %></p>
+      <p><i class="fas fa-users"></i> <%= @flat.number_of_guests %></p>
+      <p><i class="fas fa-euro-sign"></i> <%= @flat.price_per_night %></p>
     </div>
         <div class="flat-show-card">
       <h5>Share</h5>
