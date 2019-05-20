@@ -6,6 +6,7 @@
   <% @flats.each do |flat| %>
   <div class="card col-4">
     <div class="card-body">
+      <img class="index_image" src="<%= flat.image %>" alt="">
       <h3 class='card-title'><%= flat.name %></h3>
       <p><%= flat.address %></p>
       <p><i class="fas fa-users"></i> <%= flat.number_of_guests %></p>
